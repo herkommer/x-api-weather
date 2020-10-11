@@ -1,8 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #0a1f44;
+  color: #fff;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px dashed white;
+}
+
+.page-footer {
+  text-align: right;
+  font-size: 0.8rem;
+  color: fff;
+  margin-top: 40px;
 }
