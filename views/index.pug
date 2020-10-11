@@ -4,4 +4,6 @@ block content
   .container
     h1.heading= title
     p Welcome to #{title}
-    p Please Enter a City:
+    form
+      input(type="text", name="txtCity", placeholder="Please Enter a City:")
+      input(type="button", value="Go")
